@@ -35,8 +35,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 //prePostEnabled = true) // by default
 public class WebSecurityConfig { // extends WebSecurityConfigurerAdapter {
   
-  @Value("${spring.console.path}")
-  private String h2ConsolePath;
+//  @Value("${spring.console.path}")
+//  private String h2ConsolePath;
   
   @Autowired
   UserDetailsServiceImpl userDetailsService;
